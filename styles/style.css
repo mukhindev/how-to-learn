@@ -1,31 +1,151 @@
-.page {
-    min-width: 1100px;
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
-    max-width: 1600px;
-    /* выше установили ограничение по максимальной ширине */
-    margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+p {
+  margin: 0;
 }
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+
+/* Backgrounds */
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-gray {
+  background-color: #F2F2F2;
+}
+
+.bg-dark {
+  background-color: #1F1F1F;
+}
+
+
+/* Header */
 
 .header {
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
-    /* выше установили ограничения для секции */
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  overflow: hidden;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__title {
+  font-size: 102px;
+  line-height: 96px;
+  margin-left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header__link {
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  background-image: url(../images/two_again.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
 .header__square-pic {
-    height: 568px;
-    width: 568px;
+  background-color: #2F80ED;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  width: 568px;
+  height: 568px;
+  z-index: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    margin-right: 0;
-    margin-top: 80px;
+
+/* Logo */
+
+.logo {
+  width: 183px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
+.logo_dark {
+  height: 32px;
+  background-image: url(../images/logo.svg);
+}
+
+.logo_light {
+  height: 35px;
+  background-image: url(../images/logo_white.svg);
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+
+}
+
+
+/* Description */
+
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  color: #2F80ED;
+  width: 175px;
+  margin-right: 16px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
 }
