@@ -63,6 +63,10 @@ p, h1, h2, h3 {
   text-decoration: none;
 }
 
+.header__link {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -295,6 +299,10 @@ p, h1, h2, h3 {
   text-decoration: none;
 }
 
+.feinman__link:hover {
+  text-decoration: underline;
+}
+
 
 /* Footer */
 
@@ -330,6 +338,32 @@ p, h1, h2, h3 {
   flex-basis: 711px;
 }
 
-.footer__column-links {
+.footer__column-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
 
+.footer__column-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 20px 0 16px;
+}
+
+.footer__column-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
 }
