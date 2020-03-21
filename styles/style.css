@@ -1,12 +1,3 @@
-/* Dev 
-
-div {
-  outline: 1px solid red;
-  outline-offset: -1px;
-}
-*/
-
-
 /* Reset & Basic */
 
 p, h1, h2, h3 {
@@ -178,6 +169,8 @@ p, h1, h2, h3 {
   width: 877px;
   height: 877px;
   background-image: url(../images/triangle.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   z-index: 0;
   top: 0;
   right: -210px;
@@ -258,7 +251,7 @@ p, h1, h2, h3 {
 /* Feinman */
 
 .feinman {
-  height: 790px;
+  min-height: 790px;
   background-color: #F2F2F2;
   background-image: url(../images/feinman.png);
   background-repeat: no-repeat;
@@ -268,7 +261,6 @@ p, h1, h2, h3 {
   align-items: center;
   position: relative;
   padding-top: 100px;
-  box-sizing: border-box;
 }
 
 .feinman__title {
