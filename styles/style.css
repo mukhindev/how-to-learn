@@ -6,11 +6,8 @@ div {
 }
 */
 
-/* Reset & Basic */
 
-* {
-  box-sizing: border-box;
-}
+/* Reset & Basic */
 
 p, h1, h2, h3 {
   margin: 0;
@@ -111,6 +108,7 @@ p, h1, h2, h3 {
   height: 35px;
   background-image: url(../images/logo_white.svg);
 }
+
 
 /* Description */
 
@@ -218,14 +216,13 @@ p, h1, h2, h3 {
   justify-content: space-between;
   width: 1100px;
   z-index: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .table_theme_dark {
   color: #FFFFFF;
-}
-
-.table__cell {
-
 }
 
 .table__cell_width_sm {
@@ -254,7 +251,7 @@ p, h1, h2, h3 {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
 
@@ -271,6 +268,7 @@ p, h1, h2, h3 {
   align-items: center;
   position: relative;
   padding-top: 100px;
+  box-sizing: border-box;
 }
 
 .feinman__title {
