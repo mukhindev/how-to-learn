@@ -8,4 +8,4 @@
 
 ## Технологии
 
-HTML, CSS (Flex, Grid, CSS Animations)
+HTML, CSS (Flex, Grid, BEM, CSS Animations)
