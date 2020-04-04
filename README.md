@@ -6,6 +6,6 @@
 
 Версия: Спринт 2
 
-## Техологии
+## Технологии
 
-HTML, CSS
+HTML, CSS (Flex, Grid, CSS Animations)
