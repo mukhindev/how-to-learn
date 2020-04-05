@@ -1,5 +1,5 @@
-@import '../blocks/rotation/rotation.css';
 @import '../vendor/normalize.css';
+@import '../blocks/rotation/rotation.css';
 @import '../blocks/page/page.css';
 @import '../blocks/header/header.css';
 @import '../blocks/logo/logo.css';
